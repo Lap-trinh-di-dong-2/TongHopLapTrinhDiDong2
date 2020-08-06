@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.TamUng.SuaTamUng">
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/suatamung"/>
+    <LinearLayout
+        style="@style/linerlayout">
+        <TextView
+            style="@style/textview1"
+            android:text="@string/sophieu"/>
+        <TextView
+            style="@style/textview3"
+            android:id="@+id/tvSoPhieu"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linerlayout">
+        <TextView
+            style="@style/textview1"
+            android:text="@string/manhanvien"/>
+        <TextView
+            style="@style/textview3"
+            android:id="@+id/tvMaNhanVien"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linerlayout">
+        <TextView
+            style="@style/textview1"
+            android:text="@string/tennhanvien"/>
+        <TextView
+            style="@style/textview3"
+            android:id="@+id/tvTenNhanVien"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linerlayout">
+        <TextView
+            style="@style/textview1"
+            android:text="@string/ngayung"/>
+
+        <TextView
+            android:id="@+id/tvNgayUng"
+            style="@style/textview3"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/txtILSoTien"
+        app:boxStrokeColor="#29DD0A"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtSoTien"
+            style="@style/edittext"
+            android:inputType="number"
+            android:hint="@string/sotien"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <LinearLayout
+        style="@style/linerlayout3">
+        <Button
+            style="@style/button"
+            android:id="@+id/btnTamUng"
+            android:text="@string/luutamung"
+            android:layout_marginLeft="80sp"
+            android:background="@drawable/custom_button3"
+            />
+        <Button
+            style="@style/button"
+            android:id="@+id/btnThoat"
+            android:layout_marginLeft="30sp"
+            android:text="@string/thoat"
+            android:background="@drawable/custom_button3"
+            />
+    </LinearLayout>
+</LinearLayout>
