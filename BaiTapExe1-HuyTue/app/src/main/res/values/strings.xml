@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Salary Manager</string>
+    <string name="appname">Quản Lý Nhân Viên</string>
+    <string name="thongtin">Thông Tin Nhân Viên</string>
+    <string name="manv">Nhập Mã Nhân Viên</string>
+    <string name="hotennv">Nhập Họ Tên</string>
+    <string name="ngaysinhnv">Nhập Ngày Sinh</string>
+    <string name="chucnang">Chức Năng</string>
+    <string name="gioitinh">Giới Tính</string>
+    <string name="them">Thêm</string>
+    <string name="thoat">Thoát</string>
+    <string name="dsnv">Danh Sách Nhân Viên</string>
+    <string name="nam">Nam</string>
+    <string name="nu">Nữ</string>
+    <string name="sua">Sửa</string>
+    <string name="xoa">Xóa</string>
+    <string name="clear">Làm mới</string>
+</resources>

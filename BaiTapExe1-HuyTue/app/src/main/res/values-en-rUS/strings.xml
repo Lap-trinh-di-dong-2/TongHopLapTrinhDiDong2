@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Salary Manager</string>
+    <string name="thongtin">Employee information</string>
+    <string name="manv">Enter the Employee Code</string>
+    <string name="hotennv">Enter Your Name</string>
+    <string name="ngaysinhnv">Enter the Date of Birth</string>
+    <string name="chucnang">Function</string>
+    <string name="gioitinh">Gender</string>
+    <string name="them">Add</string>
+    <string name="thoat">Exit</string>
+    <string name="dsnv">List of employee</string>
+    <string name="nam">Male</string>
+    <string name="nu">Female</string>
+    <string name="sua">Update</string>
+    <string name="xoa">Delete</string>
+    <string name="clear">Clear</string>
+    <string name="appname">Employee manager</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tdc.edu.vn.quanlynhanvien.GiaoDien.MainDetail">
+    <TextView
+        style="@style/tieude"
+        android:text="Thông Tin Chi Tiết"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMa1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHoTen1"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNgaySinh1"/>
+    <TextView
+        style="@style/tieude"
+        android:text="@string/gioitinh" />
+    <RadioGroup
+        style="@style/rg"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButtonNam1"
+            style="@style/rb"
+            android:text="@string/nam"
+            />
+
+        <RadioButton
+            android:id="@+id/radioButtonNu1"
+            style="@style/rb"
+            android:text="@string/nu"
+            />
+
+    </RadioGroup>
+    <TextView
+        style="@style/tieude"
+        android:text="Chức Năng"/>
+    <LinearLayout
+        style="@style/linner">
+        <Button
+            style="@style/button"
+            android:id="@+id/btnSua"
+            android:drawableLeft="@drawable/ic_update_black_24dp"
+            android:text="@string/sua" />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnClear"
+            android:drawableLeft="@drawable/clear"
+            android:text="@string/clear" />
+    </LinearLayout>
+</LinearLayout>

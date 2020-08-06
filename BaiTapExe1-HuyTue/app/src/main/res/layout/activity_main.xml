@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.MainActivity">
+
+    <TextView
+        style="@style/appname"
+        android:text="@string/appname" />
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/thongtin" />
+
+    <EditText
+        android:id="@+id/txtMa"
+        style="@style/txt"
+        android:hint="@string/manv"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtHoTen"
+        style="@style/txt"
+        android:hint="@string/hotennv"
+        android:inputType="textPersonName|textEmailAddress" />
+
+    <EditText
+        android:id="@+id/txtNgaySinh"
+        style="@style/txt"
+        android:hint="@string/ngaysinhnv"
+        android:inputType="date" />
+    <TextView
+        style="@style/tieude"
+        android:text="@string/gioitinh" />
+    <RadioGroup
+        style="@style/rg"
+        >
+
+        <RadioButton
+            android:id="@+id/radioButtonNam"
+            style="@style/rb"
+            android:text="@string/nam"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/radioButtonNu"
+            style="@style/rb"
+            android:text="@string/nu" />
+
+    </RadioGroup>
+
+
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/chucnang" />
+
+
+    <LinearLayout style="@style/chucnang">
+
+        <Button
+            android:background="@drawable/them"
+            android:id="@+id/btnThem"
+            style="@style/btn"
+            android:text="@string/them" />
+        <Button
+            style="@style/btn"
+            android:id="@+id/btnXoa"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            android:text="@string/xoa"/>
+
+        <Button
+            style="@style/btn"
+            android:id="@+id/btnSua"
+            android:drawableLeft="@drawable/ic_update_black_24dp"
+            android:text="@string/sua" />
+
+        <Button
+            android:background="@drawable/exit"
+            android:id="@+id/btnThoat"
+            style="@style/btnimg"    />
+
+    </LinearLayout>
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/dsnv" />
+    <ListView
+        android:id="@+id/lvDanhSach"
+        style="@style/lv"></ListView>
+</LinearLayout>
