@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.Thongke.BangThongKe">
+
+    <TextView
+        style="@style/tieude"
+        android:text="Lọc theo tháng"/>
+    <LinearLayout
+        style="@style/linerlayout"
+        >
+        <Spinner
+            style="@style/spin1"
+            android:layout_weight="1"
+            android:id="@+id/spNgayCham"
+          />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnLoc"
+            android:text="Lọc"
+            android:background="@drawable/custom_button4"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linerlayout"
+        android:gravity="center">
+        <TextView
+            style="@style/textview1"
+            android:text="@string/tongluong"/>
+
+        <TextView
+            android:id="@+id/tvTongLuong"
+            style="@style/textview1"
+            android:text="5000000" />
+    </LinearLayout>
+    <ListView
+        style="@style/listview"
+        android:id="@+id/lvThongKe"
+        android:divider="#304FFE"
+        android:dividerHeight="5dp"/>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/chay1" android:duration="200"/>
+    <item android:drawable="@drawable/chay2" android:duration="200"/>
+    <item android:drawable="@drawable/chay3" android:duration="200"/>
+    <item android:drawable="@drawable/chay4" android:duration="200"/>
+    <item android:drawable="@drawable/chay5" android:duration="200"/>
+    <item android:drawable="@drawable/chay6" android:duration="200"/>
+</animation-list>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/tvTenNhanVien"
+        style="@style/tieude"
+        android:text="Trần Bình An" />
+
+    <LinearLayout style="@style/linerlayout">
+
+        <TextView
+            style="@style/textview1"
+            android:text="@string/manhanvien" />
+
+        <TextView
+            android:id="@+id/tvMaNhanVien"
+            style="@style/textview3"
+            android:text="NV01" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linerlayout">
+
+        <TextView
+            style="@style/textview1"
+            android:text="@string/phongban" />
+
+        <TextView
+            android:id="@+id/tvTenPhongBan"
+            style="@style/textview3"
+            android:text="Nhân Sự" />
+    </LinearLayout>
+
+
+    <LinearLayout style="@style/linerlayout">
+
+        <TextView
+            style="@style/textview1"
+            android:text="@string/thoigiancham" />
+
+        <TextView
+            android:id="@+id/tvThoiGianCham"
+            style="@style/textview3"
+            android:text="08/2020" />
+    </LinearLayout>
+
+    <LinearLayout style="@style/linerlayout">
+
+        <TextView
+            style="@style/textview1"
+            android:text="@string/thuclanh" />
+
+        <TextView
+            android:id="@+id/tvThucLanh"
+            style="@style/textview3"
+            android:text="50000000" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+     >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnChiTiet"
+            android:layout_weight="1"
+            android:text="Chi tiết"
+            android:background="@drawable/custom_button3"
+            android:layout_margin="20dp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnBieuDo"
+            android:layout_margin="20dp"
+
+            android:layout_weight="1"
+            android:text="Biểu đồ"
+            android:background="@drawable/custom_button3"
+            />
+    </LinearLayout>
+</LinearLayout>

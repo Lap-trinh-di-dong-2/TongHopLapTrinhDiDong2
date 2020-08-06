@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Quản Lý Lương</string>
+    <string name="appname">Quản Lý Nhân Viên</string>
+    <string name="tieude">Phòng Ban</string>
+    <string name="maphong">Mã Phòng : </string>
+    <string name="ma">Mã : </string>
+    <string name="tenphong">Tên Phòng : </string>
+    <string name="ten">Tên : </string>
+    <string name="them">Lưu Phòng Ban</string>
+    <string name="sua">Sửa Phòng Ban</string>
+    <string name="thoat">Thoát</string>
+    <string name="Show">Danh Sách Phòng Ban</string>
+    <string name="ngonngu">Ngôn Ngữ</string>
+    <string name="chucnang">Chức Năng</string>
+
+    <string name="tieude1">Nhân Viên</string>
+    <string name="manhanvien">Mã Nhân Viên : </string>
+    <string name="tennhanvien">Tên Nhân Viên : </string>
+    <string name="ngaysinh">Ngày Sinh : </string>
+    <string name="gioitinh">Giới Tính :</string>
+    <string name="nam">Nam</string>
+    <string name="nu">Nữ</string>
+    <string name="luu">Lưu</string>
+    <string name="hesoluong">Hệ Số Lương : </string>
+    <string name="phongban">Phòng Ban : </string>
+    <string name="danhsachnhanvien">Danh Sách Nhân Viên</string>
+    <string name="themnhanvien">Thêm Nhân Viên</string>
+    <string name="suanhanvien">Cập Nhật Nhân Viên</string>
+    <string name="luunhanvien">Lưu Nhân Viên</string>
+
+    <string name="tieude2">Bảng Chấm Công</string>
+    <string name="chamcong">Chấm Công</string>
+    <string name="thang">Tháng : </string>
+    <string name="luuchamcong">Lưu Chấm Công</string>
+    <string name="suachamcong">Cập Nhật Chấm Công</string>
+    <string name="songaycong">Số Ngày Công : </string>
+
+    <string name="tieude4">Bảng Tạm Ứng</string>
+    <string name="tamung">Tạm Ứng  </string>
+    <string name="suatamung">Cập Nhật Tạm Ứng</string>
+    <string name="sophieu">Số Phiếu : </string>
+    <string name="ngayung">Ngày Ứng : </string>
+    <string name="sotien">Số Tiền : </string>
+    <string name="luutamung">Lưu Tạm Ứng</string>
+
+    <string name="thongke">Thống Kê</string>
+    <string name="chitietthongke">Chi Tiết Thống Kê</string>
+    <string name="tongluong">Tổng Lương : </string>
+    <string name="luong">Lương : </string>
+    <string name="thoigiancham">Thời gian chấm : </string>
+    <string name="thuclanh">Thực lãnh : </string>
+    <string name="title_activity_maps">Map</string>
+
+
+    <string-array name="map_type">
+        <item>MAP_TYPE_NONE</item>
+        <item>MAP_TYPE_NORMAL</item>
+        <item>MAP_TYPE_SATELLITE</item>
+        <item>MAP_TYPE_HYBRID</item>
+        <item>MAP_TYPE_TERRAIN</item>
+    </string-array>
+</resources>
