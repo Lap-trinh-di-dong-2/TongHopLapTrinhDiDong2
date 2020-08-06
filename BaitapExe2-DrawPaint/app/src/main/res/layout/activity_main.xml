@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/btnPen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/brush" />
+
+        <ImageButton
+            android:id="@+id/btnErase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/eraser" />
+
+        <ImageButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/save" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="300sp">
+
+        <tdc.edu.vn.drawingfun.DrawView
+            android:id="@+id/drawing1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/xe1" />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/tvHinh1"
+            android:layout_width="70dp"
+            android:layout_height="100sp"
+            android:background="@drawable/xe1" />
+
+        <ImageView
+            android:id="@+id/tvHinh2"
+            android:layout_width="70dp"
+            android:layout_height="100sp"
+            android:layout_margin="10sp"
+            android:background="@drawable/xe2" />
+
+        <ImageView
+            android:id="@+id/tvHinh3"
+            android:layout_width="70dp"
+            android:layout_height="100sp"
+            android:background="@drawable/xe3" />
+
+        <ImageView
+            android:id="@+id/tvHinh4"
+            android:layout_width="70dp"
+            android:layout_height="100sp"
+            android:layout_margin="10sp"
+            android:background="@drawable/xe6" />
+
+        <ImageView
+            android:id="@+id/tvHinh5"
+            android:layout_width="70dp"
+            android:layout_height="100sp"
+            android:background="@drawable/xe7" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnred"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#F50556" />
+
+        <Button
+            android:id="@+id/btngreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#4AE91E" />
+
+        <Button
+            android:id="@+id/btnblue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#1E51E9" />
+
+        <Button
+            android:id="@+id/btnyellow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnRadian"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00BCD4" />
+
+        <Button
+            android:id="@+id/btnBlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#111411" />
+
+        <Button
+            android:id="@+id/btnPurple"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#9C27B0" />
+
+        <Button
+            android:id="@+id/btnOrange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#FF5722" />
+    </LinearLayout>
+</LinearLayout>
