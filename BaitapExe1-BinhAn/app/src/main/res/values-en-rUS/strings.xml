@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quan Ly Dat Hang</string>
+    <string name="sanpham" translatable="false">Product</string>
+    <string name="tieude">Oder</string>
+    <string name="khachhang">Customer</string>
+    <string name="ma">Code</string>
+    <string name="ngay">Enter date</string>
+    <string name="soluong">Enter Mount</string>
+    <string name="them">Add</string>
+    <string name="xoa">Delete</string>
+    <string name="sua">Update</string>
+    <string name="clear">Clear</string>
+    <string name="ngonngu">Language</string>
+</resources>

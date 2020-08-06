@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Quản Lý Đặt Hàng</string>
+    <string name="tieude">Đặt Hàng</string>
+    <string name="sanpham">Sản Phẩm</string>
+    <string name="khachhang">Khách Hàng</string>
+    <string name="ma">Nhập mã</string>
+    <string name="ngay">Nhập ngày</string>
+    <string name="soluong">"Nhập số lượng"</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="clear">Clear</string>
+    <string name="ngonngu">Ngôn Ngữ</string>
+</resources>

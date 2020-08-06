@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="tdc.edu.vn.kiemtra.GiaoDien.Detail">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:background="#2196F3"
+        android:textStyle="bold"
+        android:text="Thông Tin Chi Tiết"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMa"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNgay"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtSoLuong"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spSanPham"/>
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spKhachHang"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:background="#2196F3"
+        android:textStyle="bold"
+        android:text="Chức Năng"/>
+    <LinearLayout
+        style="@style/linner">
+        <Button
+            style="@style/button"
+            android:id="@+id/btnSua"
+            android:drawableLeft="@drawable/ic_update_black_24dp"
+            android:text="@string/sua" />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnClear"
+            android:drawableLeft="@drawable/clear"
+            android:text="@string/clear" />
+    </LinearLayout>
+</LinearLayout>

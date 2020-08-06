@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản Lý Đặt Hàng</string>
+    <string name="tieude">Đặt hàng</string>
+    <string name="sanpham">Sản Phẩm</string>
+    <string name="khachhang">Khách Hàng</string>
+    <string name="ma">Nhập Mã</string>
+    <string name="ngay">Nhập Ngày</string>
+    <string name="soluong">Nhập Số Lượng</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="clear">Clear</string>
+    <string name="ngonngu">Ngôn ngữ</string>
+</resources>

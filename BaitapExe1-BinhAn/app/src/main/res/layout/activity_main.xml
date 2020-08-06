@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".GiaoDien.MainActivity">
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/tieude"/>
+    <EditText
+        style="@style/editText"
+        android:id="@+id/txtMa"
+        android:hint="@string/ma" />
+    <EditText
+        style="@style/editText"
+        android:id="@+id/txtNgay"
+        android:hint="@string/ngay" />
+    <EditText
+        style="@style/editText"
+        android:id="@+id/txtSoLuong"
+        android:hint="@string/soluong"/>
+    <TextView
+       style="@style/tieude1"
+        android:text="@string/sanpham"
+       />
+    <Spinner
+        style="@style/spinner"
+        android:id="@+id/spSanPham"/>
+    <TextView
+        style="@style/tieude1"
+        android:text="@string/khachhang"
+        />
+    <Spinner
+        style="@style/spinner"
+        android:id="@+id/spKhachHang"/>
+    <LinearLayout
+        style="@style/linner">
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnThem"
+           android:background="@drawable/them"
+            android:text="@string/them" />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnXoa"
+            android:drawableLeft="@drawable/ic_delete_black_24dp"
+            android:text="@string/xoa"/>
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnSua"
+            android:drawableLeft="@drawable/ic_update_black_24dp"
+            android:text="@string/sua" />
+
+        <Button
+            style="@style/button"
+            android:id="@+id/btnClear"
+            android:drawableLeft="@drawable/clear"
+            android:text="@string/clear" />
+    </LinearLayout>
+    <ListView
+        style="@style/listview"
+        android:id="@+id/lvDanhSach"/>
+</LinearLayout>

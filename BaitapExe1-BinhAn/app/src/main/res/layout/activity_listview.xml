@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:id="@+id/imgHinh"
+        android:src="@drawable/dienthoai"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#009688"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Trần Bình An"
+            android:textSize="20sp"
+            android:id="@+id/tvTenKhachHang"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:id="@+id/tvMa"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="20"
+            android:id="@+id/tvSoLuong"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ngay"
+            android:id="@+id/tvNgay"/>
+
+    </LinearLayout>
+<ImageView
+    android:id="@+id/imgChiTiet"
+    android:layout_width="70sp"
+    android:layout_height="70sp"
+    android:src="@drawable/ic_baseline_details_24">
+
+</ImageView>
+
+</LinearLayout>

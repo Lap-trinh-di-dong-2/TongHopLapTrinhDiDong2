@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/ngonNgu"
+        android:title="Ngôn Ngữ"
+        android:icon="@drawable/vn"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/save"
+        android:title="Save"
+        android:icon="@drawable/ic_save_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/write"
+        android:title="Show"
+        android:icon="@drawable/ic_folder_special_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+    <item
+    android:id="@+id/gridview"
+    android:title="GridView"
+    android:icon="@drawable/ic_baseline_list_alt_24"
+    app:showAsAction="ifRoom"
+    />
+    <item
+        android:id="@+id/recycler"
+        android:title="Recycler"
+        android:icon="@drawable/ic_baseline_list_alt_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        android:icon="@drawable/ic_exit_to_app_black_24dp"
+        app:showAsAction="ifRoom"
+        />
+</menu>
